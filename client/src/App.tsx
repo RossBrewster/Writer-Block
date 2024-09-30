@@ -1,12 +1,10 @@
 import './App.css'
-import { HomePage } from './pages/HomePage'
-
+import DoubleCubeContainer from './Components/cube/VFormation'
 function App() {
-
   return (
-    <>
-      <HomePage />
-    </>
+    <div className='flex justify-center flex-col items-center w-full min-h-screen bg-[#111827]'>
+      <DoubleCubeContainer />
+    </div>
   )
 }
 
